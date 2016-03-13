@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=2hOygYgxYNM
 This project is created with the following technologies
 Java, Java Servlet,JSP, Struts Framework, Tomcat, MySQL
 
-This is an online platform that enables student to buy and sell seconded-handed books among themselves.
+This is an online platform that enables students to buy and sell seconded-handed books among themselves.
 
 In seller mode, students can post their books' information and image,
 set price tag, and set post period. All the books that have been posted can be browsed.
