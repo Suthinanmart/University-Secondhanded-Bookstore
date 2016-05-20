@@ -18,8 +18,3 @@ In buying mode, students can see books that have been posted on chronological or
 There is a search function to search for books according to name, writer, ISBN, price range and etc.
 When interested in a book, a request can be made on that particular book, 
 and notification will be sent to seller via email and in the notification function on the website itself.
-
-To be able to run the project, edit initial setting in global.Var.java in src folder.
-Create a database called "bookstore" and import sql from sql folder.
-Confirm database setting in struts-config.xml under /bookstore/WebContent/WEB-INF
-Run the project with apache Tomcat
