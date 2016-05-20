@@ -1,6 +1,6 @@
-package global;
+package common;
 
-public class Var {
+public class Contants {
 	//enable mail function
 	public static final boolean SEND_MAIL = true;
 	

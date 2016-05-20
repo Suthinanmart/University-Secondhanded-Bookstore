@@ -17,7 +17,7 @@ import action.form.PostForm;
 
 public class CreatePostAction extends Action {
 
-	private final static String FILE_PATH = global.Var.LOCAL_PIC_DIRECTORY_PATH;
+	private final static String FILE_PATH = common.Contants.LOCAL_PIC_DIRECTORY_PATH;
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response)

@@ -19,9 +19,9 @@ import database.DbPostOp;
 
 public class ConfirmPostAction extends Action {
 
-	private final static String LOCAL_FILE_PATH = global.Var.LOCAL_PIC_DIRECTORY_PATH;
-	private final static String SERVER_FILE_PATH = global.Var.SERVER_PIC_DIRETORY_PATH;
-	private final static String NO_IMAGE_FILE = global.Var.NO_IMAGE_FILE_PATH;
+	private final static String LOCAL_FILE_PATH = common.Contants.LOCAL_PIC_DIRECTORY_PATH;
+	private final static String SERVER_FILE_PATH = common.Contants.SERVER_PIC_DIRETORY_PATH;
+	private final static String NO_IMAGE_FILE = common.Contants.NO_IMAGE_FILE_PATH;
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response)

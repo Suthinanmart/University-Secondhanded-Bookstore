@@ -21,7 +21,7 @@ import database.DbRequestOp;
 public class SubmitSearchRequestAction extends Action {
 
 	//メール機能 ON/OFF
-	private static final boolean SEND_MAIL = global.Var.SEND_MAIL;
+	private static final boolean SEND_MAIL = common.Contants.SEND_MAIL;
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response)

@@ -12,8 +12,8 @@ import com.sun.mail.smtp.SMTPTransport;
 
 public class EmailSender {
 
-	private static final String SENDER_ADDRESS = global.Var.SENDER_ADDRESS;
-	private static final String SENDER_PASSWORD = global.Var.SENDER_PASSWORD;
+	private static final String SENDER_ADDRESS = common.Contants.SENDER_ADDRESS;
+	private static final String SENDER_PASSWORD = common.Contants.SENDER_PASSWORD;
 
   public static void sendMail(String address, String title, String text) throws Exception {
 
